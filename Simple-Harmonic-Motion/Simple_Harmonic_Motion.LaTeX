@@ -1,0 +1,26 @@
+\bold{Simple Harhomic Motion-?}
+\rule{\textwidth}{1pt}\newline
+
+F = -kx = ma\newline
+=> -kx = m\frac{d^2x}{dt^2}\newline
+=> \frac{d^2x}{dt^2} = -\frac{k}{m}x\newline
+\rule{\textwidth}{0.5pt}\newline
+guess\hspace{3pt}x(t) = A\sin(\omega t + \phi)+B\cos(\omega t + \phi)\newline
+=> \frac{dx}{dt} = \omega[A\cos(\omega t + \phi)-B\sin(\omega t + \phi)]\newline
+=> \frac{d^2x}{dt^2} = -\omega^2[A\sin(\omega t + \phi)+B\cos(\omega t + \phi)]\newline
+=> \frac{d^2x}{dt^2} = -\omega^2x(t),\hspace{3pt}\omega=\pm\sqrt{\frac{k}{m}}
+
+x(t) = \sqrt{A^2+B^2}
+[\frac{A}{\sqrt{A^2+B^2}}\sin(\omega t + \phi)+\frac{B}{\sqrt{A^2+B^2}}\cos(\omega t + \phi)]\newline
+x(t) = \sqrt{A^2+B^2}[\cos(\theta)\sin(\omega t + \phi)+\sin(\theta)\cos(\omega t + \phi)]\newline
+x(t) = \sqrt{A^2+B^2}\sin(\omega t+\phi+\theta)\newline
+x(t) = \widetilde{A}\sin(\omega t+\widetilde{\phi})\newline
+\rule{\textwidth}{0.2pt}\newline
+=>\widetilde{A}=\sqrt{A^2+B^2},
+\hspace{3pt}\widetilde{\phi}=\phi+\theta\newline
+=>\cos(\theta)=\frac{A}{\sqrt{A^2+B^2}},
+\hspace{3pt}\sin(\theta)=\frac{B}{\sqrt{A^2+B^2}}\newline
+=>\theta=\tan^{-1}(\frac{B}{A})=
+\cos^{-1}(\frac{A}{\sqrt{A^2+B^2}})=\sin^{-1}(\frac{B}{\sqrt{A^2+B^2}})\newline
+\rule{\textwidth}{1pt}\newline
+x(t)=A\sin(\omega t+\phi)
